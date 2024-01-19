@@ -1,1 +1,3 @@
-# llm-ops-mashqa-research
+# Large Language Model Operations (LLMOps)
+
+## MASHQA Research Case Study
