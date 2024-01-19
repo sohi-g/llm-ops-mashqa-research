@@ -1,7 +1,7 @@
 # Large Language Model Operations (LLMOps)
 
 ## MASHQA (Multiple Answer Spans Healthcare Question Answering) Research Case Study
-🤗Hugging Face Model Link[sohi-g/MASHQA-Mistral-7B-Instruct]
+🤗[Hugging Face Model Card](sohi-g/MASHQA-Mistral-7B-Instruct)
 
 ## Overview
 This project involves the fine-tuning of the Mistral-7B-Instruct model on the MASHQA dataset, with a focus on Healthcare Question Answering. The approach utilizes prompt engineering techniques and employs RAG-Retrieval Augmented Generation for enhanced performance.
@@ -17,7 +17,7 @@ The primary goal of this project is to provide accurate and safe answers to user
 3. **RAG-Retrieval Augmented Generation:** The RAG framework is utilized to enhance question answering. By integrating a retrieval step before generation, the model leverages relevant information for more accurate and contextually appropriate responses.
 
 ## Dataset
-The MASHQA dataset serves as the training and evaluation data for this project. This dataset is curated to include a diverse range of healthcare-related questions, ensuring the model's robustness in handling various health domains. The dataset can be found here[https://drive.google.com/file/d/1ism3N3kMapliaORZQaQU8obNycF8rH9p/view].
+The MASHQA dataset serves as the training and evaluation data for this project. This dataset is curated to include a diverse range of healthcare-related questions, ensuring the model's robustness in handling various health domains. The dataset can be found [here](https://drive.google.com/file/d/1ism3N3kMapliaORZQaQU8obNycF8rH9p/view).
 
 ## Workflow
 1. **Data Preparation:** The MASHQA dataset is preprocessed to extract relevant question-answer pairs along with context and formulate appropriate prompts for fine-tuning.
